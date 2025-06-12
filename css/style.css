@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eaf6fc, #d3ecf4);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  header {
+    background-color: #05738c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+  }
+  
+  header .icon {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 17.6px;
+    margin: 0;
+  }
+  
+  
+  main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 800px;
+    margin-top: 30px;
+  }
+  
+  
+  .card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .card h2 {
+    color: #05738c;
+    margin-top: 0;
+  }
+  
+  .card-img {
+    width: 200px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: 600;
+    color: #05738c;
+  }
+  
+
+  select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 2px solid #05738c;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    border-color: #044c5a;
+  }
+  
+
+  .botoes {
+    display: flex;
+  }
+  
+  .botao {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  .salvar {
+    background-color: #05738c;
+  }
+  
+  .salvar:hover {
+    background-color: #045f73;
+  }
+  
+  .deletar {
+    background-color: #d64545;
+  }
+  
+  .deletar:hover {
+    background-color: #a83434;
+  }
+  
+    #remedio {
+    width:100%;
+    max-width: 500px;
+    text-align: left;
+
+    
+  }
+  #horario {
+    width: 100%;
+    max-width: center;
+    text-align: left
+  }
+
+  footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-size: 0.9em;
+  color: #555;
+}
+
+
+  
+
+
